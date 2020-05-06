@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/krutikapatil/Desktop/dev/cpp/hello/sample.c
+stdio.h
+/Users/krutikapatil/Desktop/dev/cpp/hello/stdio.h
+

@@ -1,0 +1,77 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "hello",
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "hello",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "leetcode"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "hello",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "test_hello::@3338be694f50c5f33881",
+					"jsonFile" : "target-test_hello-Debug-4b854aa40bc35cf53574.json",
+					"name" : "test_hello",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/krutikapatil/Desktop/dev/cpp/build",
+		"source" : "/Users/krutikapatil/Desktop/dev/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
