@@ -1,6 +1,8 @@
 #include "stdio.h"
 #include "vector"
 
+#define VERSION 1
+
 // build max heap: turn array to heap
 // heapify: input array, index ..... correct elements a index
 
