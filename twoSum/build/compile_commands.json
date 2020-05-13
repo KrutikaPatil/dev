@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/uncle/leetcode/twoSum/build",
-  "command": "/usr/bin/clang++-6.0    -g   -o CMakeFiles/example.dir/twoSum.cpp.o -c /home/uncle/leetcode/twoSum/twoSum.cpp",
-  "file": "/home/uncle/leetcode/twoSum/twoSum.cpp"
-}
-]
