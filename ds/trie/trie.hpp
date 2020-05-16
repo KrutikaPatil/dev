@@ -8,8 +8,7 @@ class Node{
     public:
     Node(); // Constructor with no input argument
     Node(std::string ); // Constructor with name
-    // address
-    Node* ptr;
+    std::string name;
     // parent
     Node* parent;
     // list of children
@@ -23,13 +22,13 @@ class Node{
 class Directory{
     public:
     Directory();
-    void cd(const std::string);
+    Node* root;
+    Node* current;
+    int cd(const std::string);
     void mkdir(const std::string);
-    void rm(const std::string);
+    int rm(const std::string);
     std::string pwd();
     std::vector<std::string> ls();
-
-
 };
 
 
