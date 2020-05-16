@@ -15,7 +15,7 @@ public:
 
 class binaryTree{
 public:
-    class binaryNode* root = nullptr;
+    class binaryNode* root;
     void insert(int);
     bool search(int);
     bool remove(int);

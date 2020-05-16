@@ -1,7 +1,3 @@
 cmake_minimum_required("VERSION" "3.0")
 project(leetcode)
-add_subdirectory(twoSum)
-add_subdirectory(sort)
-add_subdirectory(addTwoNumbers)
-add_subdirectory(algorithms)
-add_subdirectory(krutika)
+add_subdirectory(ds)
