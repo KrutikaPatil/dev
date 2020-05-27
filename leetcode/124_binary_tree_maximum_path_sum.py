@@ -1,5 +1,5 @@
 class Solution:
-    def maxPathSum(self, root: TreeNode) -> int:
+    def maxPathSum(self, root) -> int:
         if not root: return -2147483648
         if (not root.left) and (not root.right):
             return(root.val)
