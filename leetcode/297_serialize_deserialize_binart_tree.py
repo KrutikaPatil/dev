@@ -57,3 +57,13 @@ c2.left=c3
 c2.right=c4
 
 print(serialise(r))
+
+'''
+[1,2,3,null,null,4,5]
+[1,null,3,4,5]
+[1,null,3,null,5]
+[1,null,3,null,5,6,null]
+[1,2,null,3]
+[1]
+
+'''
